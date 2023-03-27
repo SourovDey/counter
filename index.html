@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>counter</title>
+</head>
+<body>
+    <div class="couter-wrapper">
+        <div class="counter">
+            <h1 class="counter-number">00</h1>
+        </div>
+    </div>
+    <div class="wrapper">
+        <button class="container start" onclick="startFun()">
+            Start
+        </button>
+
+        <button class="container pause" onclick="pauseinterVal()">
+            Pause
+        </button>
+
+        <button class="container reset" onclick="resetFun()">
+            Reset
+        </button>
+
+        <button class="container" onclick="napAdd()">
+            Nap
+        </button>
+    </div>
+    <div class="nap_design">
+        <ul class="nap">
+
+        </ul>
+    </div>
+       <script src="main.js"></script> 
+</body>
+</html>
